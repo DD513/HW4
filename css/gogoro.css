@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Microsoft JhengHei ;
+}
+.wrapper {
+    width: 100%;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    text-align: center;
+}
+header .smart{
+    width: 10%;
+    height: 10%;
+    margin-top: 4px;
+}
+header ul li{
+    display: inline;
+    color: #f5f5f7;
+    font-size: 16px;
+    padding: 10px 20px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+header ul li:hover{
+    color: #00d7ff;
+    cursor: pointer;
+}
+.wrapper header sup {
+    font-size: 65%;
+}
+.content {
+    background-color: #f8f8f8;
+}
+.con-top {
+    width: 100%;
+}
+.con-center {
+    width: 1100px;
+    margin: 0 auto;
+}
+.con-center .goshare {
+    width: 49%;
+}
+.con-center .green {
+    width: 98.5%;
+}
+.con-center .blog {
+    height: 320px;
+    width: 69%;
+}
+.con-center .letsgogoro {
+    width: 29%;
+}
+.con-center .battery {
+    width: 98.5%;
+}
+.con-center p {
+    color: #737d82;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.6;
+}
+footer {
+    width: 100%;
+    background-color: #3d3c42;
+    height: 450px;
+}
+footer form {
+    padding: 25px;
+}
+footer .email {
+    display: block;    
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 5px 20px;
+    width: 300px;
+    height: 35px;
+    font-size: 14px;
+    color: #9499a8;
+    line-height: 20px;
+    border: none;
+    text-align: center;
+}
+footer form .submit{
+    position: relative;
+    top: -33px;
+    left: 750px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: #737d82;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+.footer-center {
+    width: 900px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer-center ul {
+    list-style: none;
+}
+.footer-center ul li {
+    color: #737d82;
+    font-size: 12px;
+    padding: 2px;
+}
+.footer-center ul li:hover {
+    text-decoration: underline #737d82;
+    cursor: pointer;
+    color: #9499a8;
+}
+.footer-center .li-title {
+    color: #fff;
+    font-size: 12px;
+}
+.footer-center .li-title:hover {
+    text-decoration: none;
+}
+.footer-img{
+    width: 120px;
+}
+.footer-buttom {
+    background-color: #323237;
+    color: #737d82;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+.footer-buttom .p1 {
+    margin-right: 30px;
+    font-size: 12px;
+    display: inline;
+}
+.footer-buttom ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.footer-buttom ul select {
+    background-color: #323237;
+    color: #fff;
+    border: none;
+    float: right;
+    font-size: 12px;
+}
+.footer-buttom .nav {
+    width: 1000px;
+    margin: 0 auto;
+}
